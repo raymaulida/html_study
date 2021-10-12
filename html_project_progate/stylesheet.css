@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1180px;
+    width: 100%;
+    padding : 0 15px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    color:rgb(21, 21, 43);
+    padding:15px 15px 15px 15px;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+.logo{
+    float:left;
+    font-size: 30px;
+    padding-top:6px;
+    padding-left:30px;
+    
+}
+.header-kanan{
+    float:right;
+    color: white;
+}
+.header-kanan li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.header-kanan li a{
+    color: rgb(21, 21, 43);
+    font-size: 20px;
+}
+
+.header-kanan li a:hover{
+    color: rgb(202, 28, 28);
+}
+.head-wrapper{
+    background-image: url(img/rajaampat.jpg);
+    background-size: cover;
+    padding: 180px 0px 100px 0px;
+    color: white; 
+    text-align: center;
+}
+
+.head-wrapper h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.head-wrapper h3{
+    letter-spacing: 3px;
+}
+
+.btn-wrapper{
+    padding-top: 20px;
+}
+.btn {
+    padding: 10px 30px;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+.start{
+    background: rgb(255, 127, 80);
+}
+.detail{
+    background: rgb(255, 127, 80);
+}
+
+.content-wrapper{
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    text-align: center;
+    
+}
+
+.heading p{
+    font-size: 20px;
+}
+
+.contents{
+    padding-top: 20px;
+}
+
+.content{
+    float: left;
+    width: 33%;
+    
+}
+
+.content-icon {
+    position: relative;
+}
+.content-icon img{
+    height: 400px;
+    width: 300px;
+    border-radius: 9px;
+}
+.negara {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.kota {
+    position: absolute;
+    top :15px;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+}
+
+.detail{
+    bottom: 70px;
+    position: inherit;
+}
+
+.desk{
+    display: inline-block;
+    color: #2f3542;
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 20px;
+    font-weight: 900;
+}
+
+footer{
+    color:#071c4d;
+    padding : 20px 0 20px 0;
+    font-size: 15px;
+    text-align: center;
+    border-top: 1px solid #071c4d
+}
+
+.login-wrapper{
+    padding-top: 180px;
+    text-align: center;
+}
+
+.Username{
+    letter-spacing: 1px;
+    color: rgba(83, 161, 135, 0.685);
+    font-size: 15px;
+    box-sizing: border-box;
+    display: block;
+}
